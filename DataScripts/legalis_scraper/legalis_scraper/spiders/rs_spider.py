@@ -6,7 +6,7 @@ class CasemineSpider(scrapy.Spider):
         'COOKIES_ENABLED': True,
         'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
     }
-    start_urls = ['https://www.casemine.com/judgement/in/6114cfc94653d0031f62ff8c']  # Target URL (Make changes here)
+    start_urls = ['https://www.casemine.com/judgement/in/63dd7f1102e42d0dc30b0cb9']  # Target URL (Make changes here)
 
     def parse(self, response):
         # Extract judgment details
